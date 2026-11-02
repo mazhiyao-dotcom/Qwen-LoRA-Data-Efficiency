@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files and LoRA adapters
+models/
+outputs/
+
+# Raw and processed datasets
+data/
+FinancialPhraseBank-v1.0/
+
+# Old/archive files
+archive/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/

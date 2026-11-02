@@ -1,0 +1,28 @@
+========== BASELINE RESULTS ==========
+Total samples: 726
+Accuracy: 43.11%
+Macro F1: 0.4366
+
+Prediction distribution:
+positive: 506
+neutral: 35
+negative: 185
+
+========== CLASSIFICATION REPORT ==========
+              precision    recall  f1-score   support
+
+    positive       0.38      0.95      0.55       205
+     neutral       0.97      0.08      0.15       431
+    negative       0.46      0.94      0.62        90
+
+    accuracy                           0.43       726
+   macro avg       0.60      0.66      0.44       726
+weighted avg       0.74      0.43      0.32       726
+
+========== CONFUSION MATRIX ==========
+Rows = True labels
+Columns = Predicted labels
+Label order: ['positive', 'neutral', 'negative']
+[[194   0  11]
+ [308  34  89]
+ [  4   1  85]]

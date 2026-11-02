@@ -1,0 +1,30 @@
+
+========== RESULTS ==========
+Total samples: 726
+Accuracy: 85.67%
+Macro F1: 0.8434
+
+Prediction distribution:
+positive: 166
+neutral: 469
+negative: 91
+
+========== CLASSIFICATION REPORT ==========
+              precision    recall  f1-score   support
+
+    positive       0.87      0.71      0.78       205
+     neutral       0.85      0.93      0.89       431
+    negative       0.86      0.87      0.86        90
+
+    accuracy                           0.86       726
+   macro avg       0.86      0.83      0.84       726
+weighted avg       0.86      0.86      0.85       726
+
+
+========== CONFUSION MATRIX ==========
+Rows = True labels
+Columns = Predicted labels
+Label order: ['positive', 'neutral', 'negative']
+[[145  58   2]
+ [ 21 399  11]
+ [  0  12  78]]

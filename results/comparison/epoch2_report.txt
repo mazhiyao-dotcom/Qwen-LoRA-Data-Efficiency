@@ -1,0 +1,28 @@
+========== EPOCH2 RESULTS ==========
+Total samples: 726
+Accuracy: 86.91%
+Macro F1: 0.8578
+
+Prediction distribution:
+positive: 178
+neutral: 457
+negative: 91
+
+========== CLASSIFICATION REPORT ==========
+              precision    recall  f1-score   support
+
+    positive       0.87      0.75      0.80       205
+     neutral       0.87      0.92      0.90       431
+    negative       0.87      0.88      0.87        90
+
+    accuracy                           0.87       726
+   macro avg       0.87      0.85      0.86       726
+weighted avg       0.87      0.87      0.87       726
+
+========== CONFUSION MATRIX ==========
+Rows = True labels
+Columns = Predicted labels
+Label order: ['positive', 'neutral', 'negative']
+[[154  49   2]
+ [ 23 398  10]
+ [  1  10  79]]
